@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "atmos",
+    "tagline": "طقسك، بوضوح جميل"
+  },
+  "header": {
+    "unitToggle": "تغيير وحدة الحرارة",
+    "themeToggle": "تبديل الوضع الداكن",
+    "language": "تغيير اللغة"
+  },
+  "search": {
+    "placeholder": "ابحث عن مدينة…",
+    "ariaLabel": "ابحث عن مدينة",
+    "clear": "مسح البحث",
+    "locate": "استخدام الموقع الحالي",
+    "favorite": "تبديل المفضلة"
+  },
+  "weather": {
+    "humidity": "الرطوبة",
+    "wind": "الرياح",
+    "direction": "الاتجاه",
+    "uvIndex": "مؤشر الأشعة فوق البنفسجية",
+    "feelsLike": "الإحساس الحراري {value}°"
+  },
+  "forecast": {
+    "heading": "توقعات 5 أيام",
+    "today": "اليوم",
+    "rainChance": "فرصة هطول {percent}%"
+  },
+  "errors": {
+    "geoUnsupported": "متصفحك لا يدعم خدمات تحديد الموقع.",
+    "geoDenied": "لم يتم منح إذن الوصول للموقع. ابحث عن مدينة بدلاً من ذلك.",
+    "generic": "حدث خطأ ما."
+  }
+}

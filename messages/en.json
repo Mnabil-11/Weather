@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "atmos",
+    "tagline": "Your weather, beautifully clear"
+  },
+  "header": {
+    "unitToggle": "Change temperature unit",
+    "themeToggle": "Toggle dark mode",
+    "language": "Change language"
+  },
+  "search": {
+    "placeholder": "Search city…",
+    "ariaLabel": "Search city",
+    "clear": "Clear search",
+    "locate": "Use current location",
+    "favorite": "Toggle favorite"
+  },
+  "weather": {
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "direction": "Direction",
+    "uvIndex": "UV index",
+    "feelsLike": "Feels like {value}°"
+  },
+  "forecast": {
+    "heading": "5-day forecast",
+    "today": "Today",
+    "rainChance": "{percent}% rain"
+  },
+  "errors": {
+    "geoUnsupported": "Your browser does not support location services.",
+    "geoDenied": "Location permission was not granted. Search for a city instead.",
+    "generic": "Something went wrong."
+  }
+}

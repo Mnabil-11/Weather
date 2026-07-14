@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-white/10; }
+  body { @apply min-h-screen bg-slate-950 font-sans text-white antialiased; }
+  button, input { -webkit-tap-highlight-color: transparent; }
+}
+
+@layer components {
+  .glass { @apply border border-white/20 bg-white/[.12] shadow-glass backdrop-blur-xl; }
+  .metric { @apply rounded-2xl border border-white/10 bg-white/[.08] p-4; }
+}
+
+::-webkit-scrollbar { height: 7px; width: 7px; }
+::-webkit-scrollbar-thumb { @apply rounded-full bg-white/25; }
