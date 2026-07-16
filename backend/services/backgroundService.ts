@@ -5,11 +5,13 @@ import type { WeatherTheme } from '@/shared/weatherTheme';
 export type { WeatherTheme };
 
 const SEARCH_QUERIES: Record<WeatherTheme, string> = {
-  clear: 'sunny blue sky landscape',
-  cloudy: 'cloudy overcast sky',
-  rain: 'rain wet street umbrella',
+  'clear-day': 'sunny blue sky landscape',
+  'clear-night': 'starry night sky moon',
+  'cloudy-day': 'cloudy overcast sky',
+  'cloudy-night': 'cloudy night sky city',
+  'rain-day': 'rain wet street umbrella',
+  'rain-night': 'rain night city lights',
   snow: 'snow mountains winter',
-  night: 'starry night sky moon',
   storm: 'lightning storm dramatic sky'
 };
 
